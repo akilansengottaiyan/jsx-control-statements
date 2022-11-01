@@ -3,14 +3,16 @@
 This repository is the extension of [jsx-control-statements](https://github.com/AlexGilleran/jsx-control-statements) with [macros](https://github.com/kentcdodds/babel-plugin-macros) support.
 
 It also supports the non macro version of the library
-### Configuration : 
+### Installation : 
 
 `  npm i -D babel-plugin-macros`
 
 `  npm i -D babel-plugin-jsx-control-statements-macros`
+
 ### Usage : 
 ```
 import { If, For, With, Choose, When, Otherwise } from 'babel-plugin-jsx-control-statements-macros/macro'
+
 const ExampleJsxControlStatements = () => (
   <If condition={true}>
       Rendered
