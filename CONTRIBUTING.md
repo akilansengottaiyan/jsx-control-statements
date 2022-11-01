@@ -6,7 +6,7 @@ JSX Control Statements loves pull requests, and it's benefited from the collabor
 
 Should be as easy as:
 ```
-git clone git@github.com:AlexGilleran/jsx-control-statements.git
+git clone git@github.com:akilansengottaiyan/jsx-control-statements.git
 cd jsx-control-statements
 npm install
 ```
@@ -28,7 +28,7 @@ It's recommended, particularly if you've included a new feature, that you check 
 npm link
 
 # (in the root of your project, at the level of package.json)
-npm link jsx-control-statements
+npm link jsx-control-statements-macros
 ```
 
 ## PR Submission Checklist

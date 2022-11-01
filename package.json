@@ -1,22 +1,23 @@
 {
-  "name": "babel-plugin-jsx-control-statements",
-  "version": "4.1.2",
-  "description": "Neater control statements (if/for) for jsx",
-  "author": {
-    "name": "Alex Gilleran",
-    "email": "alex@alexgilleran.com"
+  "name": "babel-plugin-jsx-control-statements-macros",
+  "version": "1.0.0",
+  "description": "control statements (if/for/switch) for jsx with macros support",
+  "author": { 
+    "name": "Akilan Sengottaiyan",
+    "email": "akilan0306@gmail.com"
   },
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexGilleran/jsx-control-statements"
+    "url": "https://github.com/akilansengottaiyan/jsx-control-statements"
   },
   "types": "index.d.ts",
   "bugs": {
-    "url": "https://github.com/AlexGilleran/jsx-control-statements/issues"
+    "url": "https://github.com/akilansengottaiyan/jsx-control-statements/issues"
   },
   "keywords": [
     "react",
+    "react-component",
     "jsx",
     "if",
     "else",
@@ -24,7 +25,10 @@
     "each",
     "loop",
     "babel",
-    "react-component"
+    "macros",
+    "babel-macros",
+    "babel-plugin-macros",
+    "jsc-macros"
   ],
   "license": "MIT",
   "scripts": {
@@ -33,19 +37,21 @@
     "cover": "istanbul cover -x \"**/spec/**\" node_modules/mocha/bin/_mocha spec/*.js"
   },
   "dependencies": {
-    "@babel/core": "^7.1.2"
+    "@babel/core": "^7.19.6",
+    "babel-plugin-macros": "^3.1.0"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.0.0",
-    "@babel/register": "^7.0.0",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/register": "^7.18.9",
     "babel-eslint": "^10.0.1",
     "chai": "^4.2.0",
     "chai-spies": "^1.0.0",
     "coveralls": "^3.0.9",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
+    "eslint": "^8.0.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-jsx-control-statements": "^2.1.0",
-    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react": "^7.31.10",
     "istanbul": "^0.4.1",
     "mocha": "^7.1.0",
     "react": "^16.13.0",
