@@ -4,8 +4,10 @@ This repository is the extension of [jsx-control-statements](https://github.com/
 
 It also supports the non macro version of the library
 ### Configuration : 
-  npm i babel-plugin-macros
-  npm i babel-plugin-jsx-control-statements-macros
+
+`  npm i -D babel-plugin-macros`
+
+`  npm i -D babel-plugin-jsx-control-statements-macros`
 ### Usage : 
 ```
 import { If, For, With, Choose, When, Otherwise } from 'babel-plugin-jsx-control-statements-macros/macro'
